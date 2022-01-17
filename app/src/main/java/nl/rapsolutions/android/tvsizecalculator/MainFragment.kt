@@ -62,7 +62,7 @@ class MainFragment : Fragment() {
 //            findNavController().navigate(R.id.action_MainFragment_to_AboutFragment)
 //        }
 
-        val df = DecimalFormat("0.0")
+        val df = DecimalFormat("0.00")
         //	df.setMinimumFractionDigits(1);
         df.minimumIntegerDigits = 1
 
