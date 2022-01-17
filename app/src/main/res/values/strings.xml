@@ -25,6 +25,7 @@
     <string name="ratio_lcd_laptop">LCD / Laptop</string>
     <string name="ratio_widescreen_hdtv">WideScreen HD TV</string>
     <string name="ratio_cinema_theater">Cinema / Theater</string>
+    <string name="ratio_cinemascope">Cinemascope (Anamorphic)</string>
     <string name="welcome_contributions">You are welcome to contribute. Please drop me a note in which you can help.</string>
 
 </resources>

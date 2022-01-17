@@ -19,4 +19,5 @@
     <string name="ratio_lcd_laptop">LCD / Laptop</string>
     <string name="ratio_widescreen_hdtv">Breedbeeld HD TV</string>
     <string name="ratio_cinema_theater">Bioscoop / Theater</string>
+    <string name="ratio_cinemascope">Cinemascope (Anamorphic)</string>
 </resources>
