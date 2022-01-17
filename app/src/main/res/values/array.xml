@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="ratios">
+		<item>16:9 - ratio_widescreen_hdtv</item>
+        <item>16:10 - ratio_lcd_laptop</item>
+		<item>4:3 - ratio_standard_tv</item>
+		<item>21:9 - ratio_cinema_theater</item>
+	</string-array>
+</resources>

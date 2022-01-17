@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name" translatable="false">TV Screen Size Calculator</string>
+
+    <string name="action_about" translatable="false">About</string>
+    <string name="main_fragment_label" translatable="false">TV Screen Size Calculator</string>
+    <string name="about_fragment_label">About</string>
+
+    <string name="email">Email</string>
+    <string name="previous">Previous</string>
+
+    <string name="lbldesc_RatioImg" translatable="false">ratio_example</string>
+
+    <string name="text_ScreenRatio">Select your screen Ratio:</string>
+    <string name="text_ToggleCM_INCH">Toggle between INCH and CM measurements</string>
+    <string name="text_ToggledCM">CM</string>
+    <string name="text_ToggledINCH">Inch</string>
+    <string name="text_Screen">Screen:</string>
+    <string name="text_ScreenDiagonal">Diagonal</string>
+    <string name="text_ScreenWidth">Width</string>
+    <string name="text_ScreenHeight">Height</string>
+    <string name="text_compare">Compare</string>
+    <string name="text_screen">Main screen</string>
+
+    <string name="ratio_standard_tv">Standard TV</string>
+    <string name="ratio_lcd_laptop">LCD / Laptop</string>
+    <string name="ratio_widescreen_hdtv">WideScreen HD TV</string>
+    <string name="ratio_cinema_theater">Cinema / Theater</string>
+    <string name="welcome_contributions">You are welcome to contribute. Please drop me a note in which you can help.</string>
+
+</resources>
