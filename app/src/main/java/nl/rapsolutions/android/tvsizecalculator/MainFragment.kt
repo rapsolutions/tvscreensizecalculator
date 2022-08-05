@@ -90,8 +90,8 @@ class MainFragment : Fragment() {
             }
         })
 
-        buildBoxes(df, binding.spinnerLeft, binding.editDiagonalLeft, binding.editWidthLeft, binding.editHeightLeft)
-        buildBoxes(df, binding.spinnerRight, binding.editDiagonalRight, binding.editWidthRight, binding.editHeightRight)
+        buildBoxes(df, binding.spinnerLeft, binding.editDiagonalRight, binding.editDiagonalLeft, binding.editWidthLeft, binding.editHeightLeft)
+        buildBoxes(df, binding.spinnerRight, binding.editDiagonalLeft, binding.editDiagonalRight, binding.editWidthRight, binding.editHeightRight)
     }
 
     override fun onDestroyView() {
@@ -115,11 +115,15 @@ class MainFragment : Fragment() {
 //        super.onViewStateRestored(savedInstanceState)
 //    }
 
-    private fun buildBoxes(df: DecimalFormat, spin: Spinner?, diag: EditText?, width: EditText?, height: EditText?) {
+    private fun buildBoxes(df: DecimalFormat, spin: Spinner?, otherDiag: EditText?, diag: EditText?, width: EditText?, height: EditText?) {
         if (spin != null) {
             spin.onItemSelectedListener = object : OnItemSelectedListener {
                 override fun onItemSelected(arg0: AdapterView<*>?, arg1: View?, arg2: Int, arg3: Long) {
-                    diag!!.text = diag.text
+                    if (diag?.text?.isEmpty() == true && otherDiag != null) {
+                        diag.text = otherDiag.text
+                    } else {
+                        diag!!.text = diag.text
+                    }
                     if ("" == spin.selectedItem.toString()) {
                         // Disable controls
                         diag.setText("")
